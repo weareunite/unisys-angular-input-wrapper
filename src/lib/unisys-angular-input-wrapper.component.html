@@ -1,0 +1,17 @@
+<div class="form-group" [formGroup]="group" [ngClass]="customClass != '' && customClass">
+    <label class="center-block"> <span translate>{{ translation}}</span>
+        <ng-content></ng-content>
+    </label>
+    <ul *ngIf="fieldName">
+        <li *ngFor="let item of field.errors | keyvalue">
+            <span class="text-red" style="font-size: 11px;font-weight: 700;" translate>{{ item.key}}</span> <span *ngIf="isString(item.value)" translate> {{ item.value}}</span>
+            <span *ngIf="!isString(item.value)">
+          <ul>
+            <li *ngFor="let subitem of item.value | keyvalue">
+              <span translate>{{ subitem.key}}</span> : {{ subitem.value}}
+            </li>
+          </ul>
+        </span>
+        </li>
+    </ul>
+</div>
