@@ -19,6 +19,7 @@ export class UnisysAngularInputWrapperComponent implements OnInit {
 
   ngOnInit(){
     this.fieldName != '' ? this.field = this.group.controls[this.fieldName] : this.field = null ;
+
   }
 
   public isString(val){
