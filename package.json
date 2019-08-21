@@ -1,6 +1,6 @@
 {
-  "name": "unisys-angular-input-wrapper",
-  "version": "0.0.2",
+  "name": "@weareunite/unisys-angular-input-wrapper",
+  "version": "0.0.12",
   "author": "Unite s.r.o.",
   "license": "MIT",
   "repository": "weareunite/unisys-angular-input-wrapper",
