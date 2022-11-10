@@ -1,11 +1,11 @@
 {
   "name": "@weareunite/unisys-angular-input-wrapper",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "author": "Unite s.r.o.",
   "license": "MIT",
   "repository": "weareunite/unisys-angular-input-wrapper",
   "peerDependencies": {
-    "@angular/common": "^6.0.0-rc.0 || ^6.0.0",
-    "@angular/core": "^6.0.0-rc.0 || ^6.0.0"
+    "@angular/common": "^7.2.0",
+    "@angular/core": "^7.2.0"
   }
 }
